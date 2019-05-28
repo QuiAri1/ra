@@ -51,10 +51,10 @@ body {
 }
 .display-7 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -1939,6 +1939,29 @@ body {
 .cid-rrITsT0Qpd .text2,
 .cid-rrITsT0Qpd .btn2 {
   color: #ffffff;
+}
+.cid-rrIV0awe2h {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #f2f6ff;
+}
+.cid-rrIV0awe2h H1 {
+  color: #57468b;
+}
+.cid-rrIV0awe2h .mbr-text,
+.cid-rrIV0awe2h .mbr-section-btn {
+  color: #716c80;
+}
+.cid-rrIV0awe2h img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+}
+@media (max-width: 992px) {
+  .cid-rrIV0awe2h img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 .cid-rrIQ81GQ6X {
   padding-top: 45px;
